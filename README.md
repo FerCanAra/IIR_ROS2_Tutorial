@@ -29,7 +29,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 - [Linux](https://releases.ubuntu.com/jammy/) (Ubuntu 22.04 recommended).
 - [ROS 2 (Humble)](https://docs.ros.org/en/humble/index.html).
-- Environment setup guide
+- [Environment setup guide](docs/Linux_enviroment_setup.md)
 
 </details>
 
