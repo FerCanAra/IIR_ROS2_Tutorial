@@ -48,31 +48,31 @@ The programme is divided into four progressive stages:
 
 <details>
 <summary>1º Stage: Morphological and Kinematic Analysis</summary>
-- **Robotic Morphology:** Study and classification of platforms (Differential, Ackermann, submarine and zoomorphic).
-- **Hardware Architecture:** Identification of sensors (LiDAR, IMU, Encoders) and their role in environmental perception.
-- **Functional Modelling:** Creation of schematics representing the interaction between physical components and logical control.
+- Robotic Morphology: Study and classification of platforms (Differential, Ackermann, submarine and zoomorphic).
+- Hardware Architecture: Identification of sensors (LiDAR, IMU, Encoders) and their role in environmental perception.
+- Functional Modelling: Creation of schematics representing the interaction between physical components and logical control.
 </details>
 
 <details>
 <summary>2º Stage: Morphological and Kinematic Analysis</summary>
-- **Installing ROS 2:** Ubuntu 22.04 setup procedure and ROS 2.
-- **Managing Workspaces:** Structuring the workspace (`ros2_ws`) and cloning integration repositories.
-- **Understanding ROS 2**: using nodes, topics and messages via ```ros2 node list```, ```ros2 topic list``` and ```ros2 topic echo ...```
+- Installing ROS 2: Ubuntu 22.04 setup procedure and ROS 2.
+- Managing Workspaces: Structuring the workspace (`ros2_ws`) and cloning integration repositories.
+- Understanding ROS 2: using nodes, topics and messages via ```ros2 node list```, ```ros2 topic list``` and ```ros2 topic echo ...```
 </details>
 
 <details>
 <summary>3º Stage: Simulación, Sensory Perception and Navigation</summary>
-- **Webots and MVSim Integration:** Configuring communication between the middleware and the simulator.
-- **Monitoring:** Using **Rviz2** to visualise sensor data and transformations (TF) in real time.
-- **Data Processing:** Processing information from LiDAR, GPS, IMU, etc.
-- **Mapping:** Fundamental concepts of map construction and robot localisation.
-- **Control Strategies:** Implementation of **reactive navigation** (obstacle avoidance) and **deliberate navigation** (path planning) algorithms.
+- Webots and MVSim Integration: Configuring communication between the middleware and the simulator.
+- Monitoring: Using Rviz2 to visualise sensor data and transformations (TF) in real time.
+- Data Processing: Processing information from LiDAR, GPS, IMU, etc.
+- Mapping: Fundamental concepts of map construction and robot localisation.
+- Control Strategies: Implementation of **reactive navigation** (obstacle avoidance) and **deliberate navigation** (path planning) algorithms.
 </details>
 
 <details>
 <summary>4º Stage: Real Environment Data</summary>
-- **Real data playback:** Using ros2bag to play back real Ouster OS0 sensor data.
-- **3D SLAM:** Using MOLA to perform 3D mapping of the recorded environment in the rosbag.
+- Real data playback: Using ros2bag to play back real Ouster OS0 sensor data.
+- 3D SLAM: Using MOLA to perform 3D mapping of the recorded environment in the rosbag.
 </details>
 
 ------------------------------------------------------------------------
