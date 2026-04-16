@@ -2,10 +2,8 @@
 
 Repository containing exercises to help you understand ROS 2 from scratch in just 6 hours!
 
-<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cfbb1315-219f-4558-b141-25f5ac2dc8d5" />
-<img width="400" height="250" alt="image7" src="https://github.com/user-attachments/assets/19188ead-06c4-4a75-8e07-18b4cfd6e051" />
-
-> **Note:** Process tested with Linux Ubuntu 22.04.05 LTS on 16th April 2026.
+<img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/cfbb1315-219f-4558-b141-25f5ac2dc8d5" />
+<img width="500" height="350" alt="image7" src="https://github.com/user-attachments/assets/19188ead-06c4-4a75-8e07-18b4cfd6e051" />
 
 *Author: Fernando Cañadas Aránega, PhD student in Agriculture Robotics at the University of Almeria, Spain.*
 
@@ -22,6 +20,7 @@ Repository containing exercises to help you understand ROS 2 from scratch in jus
   <img src="docs/logo2.png" width="55" alt="LinkedIn Logo" /> 
 </a>
 
+> **Note:** Process tested with Linux Ubuntu 22.04.05 LTS on 16th April 2026.
 
 
 
