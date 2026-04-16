@@ -1,5 +1,7 @@
 # Environment configuration in Linux
-  
+
+## ROS 2 Humble Install
+
 ### Configure locale
 ```
 sudo apt update && sudo apt install locales\
@@ -38,7 +40,7 @@ source /opt/ros/humble/setup.bash
 ```
 ------------------------------------------------------------------------
 
-## 📦 4. Additional Packages
+## Additional Packages
 
 ### Navigation
 ```
