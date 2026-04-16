@@ -7,5 +7,5 @@
 5.  Once inside, follow the [Ubuntu Linux environment](docs/Linux_enviroment_setup.md) setup guide
 
 
-<img width="520" height="522" alt="image" src="https://github.com/user-attachments/assets/5cf32e9e-2671-4cfb-9479-74090dbb8a89" />
-<img width="678" height="690" alt="image" src="https://github.com/user-attachments/assets/04ffeac5-4c6f-4440-8959-fc57fb0fa4c9" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/5cf32e9e-2671-4cfb-9479-74090dbb8a89" />
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/04ffeac5-4c6f-4440-8959-fc57fb0fa4c9" />
