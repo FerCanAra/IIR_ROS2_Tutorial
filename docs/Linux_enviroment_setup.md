@@ -68,3 +68,19 @@ sudo apt install ros-${ROS_DISTRO}-turtlebot3-navigation2
 sudo apt install ros-$ROS_DISTRO-teleop-twist-keyboard
 ```
 ------------------------------------------------------------------------
+
+### src configuration
+```
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+git clone git clone https://github.com/cyberbotics/webots_ros2.git
+git clone https://github.com/MRPT/mvsim.git --recursive
+git clone -b humble-devel https://github.com/ouster-lidar/ouster-ros.git
+cd webots_ros2
+git submodule update --init --recursive
+cd ../..
+rosdep update
+rosdep install --from-paths src -y --ignore-src
+colcon build
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+```
