@@ -1,5 +1,7 @@
 # Environment configuration in Linux
 
+Simply enter the commands in the Linux terminal (Ctrl + Alt + T)
+
 ## ROS 2 Humble Install
 
 ### Configure locale
