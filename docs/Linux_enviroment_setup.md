@@ -69,7 +69,7 @@ sudo apt install ros-$ROS_DISTRO-teleop-twist-keyboard
 ```
 ------------------------------------------------------------------------
 
-### src configuration
+## src configuration
 ```
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
