@@ -22,7 +22,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 ------------------------------------------------------------------------
 
-## Prerequisites
+## Installing Prerequisites
 
 <details>
 <summary>Use on native Ubuntu</summary>
