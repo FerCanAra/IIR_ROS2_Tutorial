@@ -36,7 +36,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 </details>
 
 <details>
-<summary>Use on Wndows</summary>
+<summary>Use on Wndows with virtual machine</summary>
 
 - [Install and configuration vmware pro 17](docs/vmwaresetup.md)
 
