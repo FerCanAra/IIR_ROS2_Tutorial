@@ -78,6 +78,9 @@ git clone https://github.com/MRPT/mvsim.git --recursive
 git clone -b humble-devel https://github.com/ouster-lidar/ouster-ros.git
 cd webots_ros2
 git submodule update --init --recursive
+cd ..
+cd mvsim
+git submodule update --init --recursive
 cd ../..
 rosdep update
 rosdep install --from-paths src -y --ignore-src
