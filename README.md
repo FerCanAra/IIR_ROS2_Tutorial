@@ -20,7 +20,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
   <img src="docs/logo2.png" width="55" alt="LinkedIn Logo" /> 
 </a>
 
-> **Note:** Process tested with Linux Ubuntu 22.04.05 LTS on 16th April 2026.
+> **Note:** Process tested with Linux Ubuntu 22.04 LTS on 16th April 2026.
 
 ------------------------------------------------------------------------
 
