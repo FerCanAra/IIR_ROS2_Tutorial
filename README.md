@@ -24,7 +24,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 ------------------------------------------------------------------------
 
-## Installing Prerequisites
+## Installing and setup your environment
 
 <details>
 <summary>Use on native Ubuntu</summary>
