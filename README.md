@@ -52,7 +52,7 @@ The programme is divided into four progressive stages:
 - Robotic Morphology: Study and classification of platforms (Differential, Ackermann, submarine and zoomorphic).
 - Hardware Architecture: Identification of sensors (LiDAR, IMU, Encoders) and their role in environmental perception.
 - Functional Modelling: Creation of schematics representing the interaction between physical components and logical control.
-- 
+  
 </details>
 
 <details>
