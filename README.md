@@ -310,7 +310,6 @@ The system will open the Molaviz graphical interface, progressively generating a
 - IMU Integration: For motion compensation and orientation tracking.
 - LiDAR Odometry: To estimate the sensor's trajectory and reconstruct the environment without external positioning (like GPS).
 
-<img width="450" height="250" alt="image" src="https://github.com/user-attachments/assets/11a52728-0362-416a-8e3a-bc771f9676f9" />
-
+<img width="450" height="350" alt="image7" src="https://github.com/user-attachments/assets/19188ead-06c4-4a75-8e07-18b4cfd6e051" />
 
 </details>
