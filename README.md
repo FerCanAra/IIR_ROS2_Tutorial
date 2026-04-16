@@ -1,6 +1,6 @@
 # ROS 2 Tutorial Robotics Students - University of Almería - B. in Informatics Engineering
 
-Repository containing a tutorial to help you understand ROS 2 from scratch in just 6 hours! It is focuses on the morphological and kinematic analysis of mobile robots, as well as the implementation of control and navigation algorithms using the **ROS 2 (Humble/Iron)** middleware and the high-performance **Webots** and **MVSim** simulator.
+Repository containing a tutorial to help you understand ROS 2 from scratch in just 4 stages! It is focuses on the morphological and kinematic analysis of mobile robots, as well as the implementation of control and navigation algorithms using the **ROS 2 (Humble/Iron)** middleware and the high-performance **Webots** and **MVSim** simulator.
 
 <img width="355" height="255" alt="image" src="https://github.com/user-attachments/assets/cfbb1315-219f-4558-b141-25f5ac2dc8d5" />
 <img width="450" height="350" alt="image7" src="https://github.com/user-attachments/assets/19188ead-06c4-4a75-8e07-18b4cfd6e051" />
@@ -42,14 +42,16 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 ------------------------------------------------------------------------
 
-El desarrollo se divide en fases progresivas (enfoque ABP híbrido):
+## Problem-based learning approach
 
-1.  **Análisis Morfológico y Cinemático:** Identificación de arquitecturas (Diferencial vs. Ackermann) y componentes hardware.
-2.  **Configuración del Entorno ROS 2:** Creación de un *workspace* estructurado y gestión de dependencias con `rosdep`.
-3.  **Simulación y Control:** Integración de Webots con ROS 2 para el control de movimiento mediante nodos de teleoperación.
-4.  **Percepción y Navegación:** Trabajo con sensores reales/simulados, construcción de mapas y algoritmos de navegación reactiva y deliberada.
+The programme is divided into four progressive stages:
 
-## 🔧 Instalación y Configuración
+1.  **Morphological and Kinematic Analysis:** Identification of architectures (Differential vs. Ackermann) and hardware components.
+2.  **ROS 2 Environment Setup:** Creation of a structured workspace and dependency management using `rosdep`.
+3.  **Perception and Navigation:** Working with simulated sensors, constructing 2D maps, and reactive and deliberative navigation algorithms.
+4.  **SLAM with real data:** Working with real sensors to construct three-dimensional environments.
+
+### 1º Stage: Morphological and Kinematic Analysis
 
 Siga estos pasos para replicar el entorno de trabajo:
 
@@ -57,47 +59,14 @@ Siga estos pasos para replicar el entorno de trabajo:
 
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
-git clone <url-de-tu-repositorio>
+git clone git clone https://github.com/cyberbotics/webots_ros2.git
+git clone https://github.com/MRPT/mvsim.git --recursive
+git clone -b humble-devel https://github.com/ouster-lidar/ouster-ros.git
 cd webots_ros2
 git submodule update --init --recursive
-
-
-
-
-
-## 🧪 5. Workspace Setup
-```
-mkdir -p \~/journal/ieee_iot_2\
-cd \~/journal/ieee_iot_2
-```
-Descomprime el [archivo comprimido](https://drive.google.com/file/d/1MCiqBNdE58fHB75JSwNnDfkTiPTIqoyD/view?usp=drive_link) de Drive y descomprímelo en ```/journal/ieee_iot_2```. Entonces:
-```
-rosdep update\
+cd ../..
+rosdep update
 rosdep install --from-paths src -y --ignore-src
-colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Releaseros -DYOLOX_USE_OPENVINO=ON
-. install/setup.bash
-echo "source \~/ros2_ws/install/setup.bash" \>\> \~/.bashrc
-```
-------------------------------------------------------------------------
+colcon build
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 
-## 🚀 6.Lanzar simulación completa
-```
-ROS2_MQTT_bridge.sh
-```
-------------------------------------------------------------------------
-
-## 📚 License
-
-BSD 3-Clause License
-
-------------------------------------------------------------------------
-
-## 👨‍🏫 Authors
-
-Fernando Cañadas Aránega
-
-Todo en [Drive](https://drive.google.com/drive/folders/1HC5idcXOKwYxiy8K2DE4wB4wFAAT1ZA7?usp=sharing).
-
-University of Almería\
-Department of Computer Science\
-Area of Systems Engineering and Automation
