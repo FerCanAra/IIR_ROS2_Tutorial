@@ -2,18 +2,25 @@
 
 Repository containing exercises to help you understand ROS 2 from scratch in just 6 hours!
 
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cfbb1315-219f-4558-b141-25f5ac2dc8d5" />
+<img width="400" height="250" alt="image7" src="https://github.com/user-attachments/assets/19188ead-06c4-4a75-8e07-18b4cfd6e051" />
 
-This repository provides a complete guide to set up a robotics development environment using a virtual machine, Ubuntu, and ROS 2 Humble. It is intended for students and researchers working in robotics.
+> **Note:** Process tested with Linux Ubuntu 22.04.05 LTS on 16th April 2026.
+
+*Author: Fernando Cañadas Aránega, PhD student in Agriculture Robotics at the University of Almeria, Spain.*
+
+*Gmail: fernando.ca@ual.es*
+
+*Website: https://linktr.ee/FerCanAra*
 
 
 
-
-<a href="[https://arm.ual.es/arm-group/]"> <img src="docs/arm-logo2.jpg" width="150" /> </a>  
-
-<a href="[https://www.linkedin.com/company/automatic-robotics-and-mechatronics-research-group/]">  <img src="docs/logo2.png" width="55" /> </a>
-
-
-
+<a href="https://arm.ual.es/arm-group/"> 
+  <img src="docs/arm-logo2.jpg" width="150" alt="ARM Group Logo" /> 
+</a>
+<a href="https://www.linkedin.com/company/automatic-robotics-and-mechatronics-research-group/"> 
+  <img src="docs/logo2.png" width="55" alt="LinkedIn Logo" /> 
+</a>
 
 
 
