@@ -25,7 +25,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 ## Prerequisitos
 
 <details>
-<summary>**Use on native Ubuntu**</summary>
+<summary>Use on native Ubuntu</summary>
 
 - [Linux](https://releases.ubuntu.com/jammy/) (Ubuntu 22.04 recommended).
 - [ROS 2 (Humble)](https://docs.ros.org/en/humble/index.html).
@@ -34,23 +34,13 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 </details>
 
 <details>
-<summary>**Use on Wndows**</summary>
+<summary>Use on Wndows</summary>
 
--
-- [Linux](https://releases.ubuntu.com/jammy/) (Ubuntu 22.04 recomendado).
-- [ROS 2 (Humble)](https://docs.ros.org/en/humble/index.html).
-- [Environment configuration in Linux](#Congiguration_Seup)
+- [Install and configuration vmware pro 17](docs/vmwaresetup.md)
 
 </details>
 
-## 🚀 Tecnologías Utilizadas
-* **Sistema Operativo:** Linux (Ubuntu 22.04 recomendado).
-* **Middleware:** ROS 2 (Robot Operating System).
-* **Simulador:** Webots.
-* **Lenguajes:** Python / C++.
-* **Herramientas de Control:** Teleop, Rviz2.
-
-## 🛠️ Estructura de la Práctica
+------------------------------------------------------------------------
 
 El desarrollo se divide en fases progresivas (enfoque ABP híbrido):
 
