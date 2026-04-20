@@ -58,7 +58,7 @@ The programme is divided into four progressive stages:
 </details>
 
 <details>
-<summary>2º Stage: Morphological and Kinematic Analysis</summary>
+<summary>2º Stage: Introduction to ROS 2</summary>
 
 - Installing ROS 2: Ubuntu 22.04 setup procedure and ROS 2.
 - Managing Workspaces: Structuring the workspace (`ros2_ws`) and cloning integration repositories. 
