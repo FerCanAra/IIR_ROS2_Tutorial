@@ -87,3 +87,6 @@ rosdep install --from-paths src -y --ignore-src
 colcon build
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 ```
+------------------------------------------------------------------------
+If you are configuring the control benchmark for greenhouses, please return to the (official repository)[https://github.com/FerCanAra/robotics_benchmark_greenhouse/tree/main] and follow all the explained steps to install it on this virtual machine.
+
