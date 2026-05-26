@@ -4,7 +4,7 @@
 2.  Download [VMware Workstation Pro](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
 3.  Download [Ubuntu 22.04.5 LTS](https://releases.ubuntu.com/jammy/).
 4.  Create a virtual machine with the following specifications: Disk: 40 GB; RAM: 8 GB; CPU: 4 cores.
-5.  Once inside, follow the [Ubuntu Linux environment](docs/Linux_enviroment_setup.md) setup guide
+5.  Once inside, follow the [Ubuntu Linux environment](https://github.com/FerCanAra/IIR_ROS2_Tutorial/blob/main/docs/Linux_enviroment_setup.md) setup guide
 
 
 <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/5cf32e9e-2671-4cfb-9479-74090dbb8a89" />
