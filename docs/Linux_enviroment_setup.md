@@ -67,6 +67,8 @@ sudo apt install ros-$ROS_DISTRO-teleop-twist-keyboard
 
 ## src configuration
 ```
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone git clone https://github.com/cyberbotics/webots_ros2.git
