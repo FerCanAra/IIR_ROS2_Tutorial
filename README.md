@@ -7,7 +7,7 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 *Author: Fernando Cañadas Aránega, PhD student in Agriculture Robotics at the University of Almeria, Spain.*
 
-*[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group, Departments of Informatics*
+*[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group (ARM - TEP197), Departments of Informatics, University of Almeria, Almería, Spain*
 
 *Gmail: fernando.ca@ual.es*
 
