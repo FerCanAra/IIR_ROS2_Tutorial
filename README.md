@@ -22,6 +22,19 @@ Repository containing a tutorial to help you understand ROS 2 from scratch in ju
 
 > **Note:** Process tested with Linux Ubuntu 22.04 LTS on 16th April 2026.
 
+📑 Citation
+------------------
+*Paper citation*
+------------------
+```
+@article{aranega2026enfoque,
+  title={A Hybrid Problem-Based Learning Approach to Mobile Robotics Using Real and Simulated ROS 2 Scenarios},
+  author={Ar{\'a}nega, Fernando Ca{\~n}adas and S{\'a}nchez, Jos{\'e} Luis Guzm{\'a}n and Vergel, Juan Diego Gil and Soria, Manuel Berenguel and {\'U}beda, Jose Carlos Moreno},
+  journal={Revista Iberoamericana de Autom{\'a}tica e Inform{\'a}tica industrial},
+  note = {Article in press},
+  year={2026}
+}
+```
 ------------------------------------------------------------------------
 
 ## Installing and setup your environment
